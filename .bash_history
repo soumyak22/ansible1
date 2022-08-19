@@ -62,3 +62,25 @@ git remote add origin https://github.com/soumyak22/ansible1.git
 git push -u origin main
 git pull
 exit
+git config --global --list
+sudo git config --global --list
+echo "# ansible1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/soumyak22/ansible1.git
+git push -u origin main
+touch ram
+git add .
+git status
+git commit -m "test"
+git log --oneline
+git push
+git push --set-upstream origin main
+git fetch
+git branch -a
+cd remotes/origin/main
+sudo cd remotes/origin/main
+sudo git branch -a
+git push
